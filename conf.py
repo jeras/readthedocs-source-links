@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Red Pitaya documentation build configuration file, created by
+# Test documentation build configuration file, created by
 # sphinx-quickstart on Fri Sep 16 12:27:19 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -19,7 +19,6 @@ import os
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../redpitaya'))
 
 # -- General configuration ------------------------------------------------
 
@@ -34,7 +33,6 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'sphinx.ext.todo',
-    'sphinxcontrib.wavedrom',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,17 +50,17 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Red Pitaya STEMlab'
-title = u'Red Pitaya STEMlab Documentation'
-copyright = u'2016, Red Pitaya d.d.'
-author = u'Red Pitaya'
+project = u'Test'
+title = u'Test Documentation'
+copyright = u'2017'
+author = u'Test Author'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = u'0.97'
+version = u'1.0'
 # The full version, including alpha/beta/rc tags.
 release = version
 
@@ -136,12 +134,12 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "doc/img/logo_stemlab.svg"
+#html_logo = ""
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "doc/img/favicon.ico"
+#html_favicon = ""
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -210,7 +208,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'RedPitayadoc'
+htmlhelp_basename = 'Testdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -232,12 +230,12 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'RedPitaya-STEMlab.tex', title, author, 'manual'),
+    (master_doc, 'Test.tex', title, author, 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "doc/img/logo_stemlab.svg"
+#latex_logo = ""
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -266,7 +264,7 @@ latex_logo = "doc/img/logo_stemlab.svg"
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'RedPitaya-STEMlab', title, author, 1)
+    (master_doc, 'Test', title, author, 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -279,7 +277,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'RedPitaya-STEMlab', title, author, 'RedPitaya',
+    (master_doc, 'Test', title, author, 'Test',
     'One line description of project.', 'Miscellaneous'),
 ]
 
