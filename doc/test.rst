@@ -55,6 +55,6 @@ used to build the documentation.
 
 .. code-block:: restructuredtext
 
-    See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>_
+    See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>`_
 
-See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>_
+See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>`_
