@@ -6,8 +6,8 @@ containing links to source code files in a GitHub repository.
 The next requirements should be met:
 
 1. Links should preferably work both on:
-   1. Github (lower priority),
-   Read the Docs hosted pages (higher priority).
+   1. `Github <https://github.com/>`_ (lower priority),
+   2. `Read the Docs <https://readthedocs.org/>`_ hosted pages (higher priority).
 2. Links should point to the same Git branch as they were built from.
 
 In the next examples a Python source file ``conf.py`` is linked to.
