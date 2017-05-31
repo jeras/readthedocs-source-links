@@ -24,9 +24,9 @@ Link is codded ass:
 
 .. code-block:: restructuredtext
 
-    See source file `conf.py <../conf.py>`_.
+    See source file `conf.py <conf.py>`_.
 
-See source file `conf.py <../conf.py>`_.
+See source file `conf.py <conf.py>`_.
 
 ---------------------------------------
 Absolute path (agains Git project root)
