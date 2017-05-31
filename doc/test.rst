@@ -22,6 +22,8 @@ But it **does not work on Read the Docs**.
 
 Link is codded ass:
 
+.. code-block:: restructuredtext
+
     See source file `conf.py <../conf.py>`_.
 
 See source file `conf.py <../conf.py>`_.
@@ -37,6 +39,8 @@ regardless the position of this documentation file
 
 Link is codded ass:
 
+.. code-block:: restructuredtext
+
     See source file `conf.py </conf.py>`_.
 
 See source file `conf.py </conf.py>`_.
@@ -48,6 +52,8 @@ Full URL to github page
 A full URL to a GitHub page works both on GitHub and on Read the Docs.
 But this solution does not by design point to the same branch as the one
 used to build the documentation.
+
+.. code-block:: restructuredtext
 
     See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>_
 
