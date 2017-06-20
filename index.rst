@@ -60,3 +60,13 @@ used to build the documentation.
     See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>`_
 
 See source file `conf.py <https://github.com/jeras/readthedocs-source-links/blob/master/conf.py>`_
+
+-----------
+Custom role
+-----------
+
+.. code-block:: restructuredtext
+
+    See source file :source: `/conf.py`
+
+See source file :source: `/conf.py`
