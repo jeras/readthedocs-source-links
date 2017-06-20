@@ -67,6 +67,6 @@ Custom role
 
 .. code-block:: restructuredtext
 
-    See source file :source: `/conf.py`
+    See source file :source:`/conf.py`
 
-See source file :source: `/conf.py`
+See source file :source:`/conf.py`
