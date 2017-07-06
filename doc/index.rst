@@ -70,3 +70,13 @@ Custom role
     See source file :source:`/conf.py`
 
 See source file :source:`/conf.py`
+
+
+.. code-block:: restructuredtext
+
+    .. |conf.py| replace:: ``image.sh``
+    .. _conf.py: :source:/OS/debian/image.sh
+
+    See source file :source:`/conf.py`
+
+See source file :source:`/conf.py`
